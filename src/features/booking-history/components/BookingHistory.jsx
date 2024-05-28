@@ -5,7 +5,7 @@ import PlaneIcon from "@/assets/PlaneIcon";
 import WarningIcon from "@/assets/WarningIcon";
 import Layout from "@/components/Layout";
 import SerialNumber from "@/components/SerialNumber";
-import Badge from "@/components/badge";
+import Badge from "@/components/Badge";
 
 import React from "react";
 
