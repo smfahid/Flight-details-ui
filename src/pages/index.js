@@ -1,4 +1,4 @@
-import BookingHistory from "@/features/booking-history/components/BookingHistory";
+import BookingHistory from "@/features/booking-history/BookingHistory";
 import { Murecho } from "next/font/google";
 
 const murecho = Murecho({ subsets: ["latin"] });
