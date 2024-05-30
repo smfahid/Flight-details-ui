@@ -3,12 +3,15 @@ import React from "react";
 
 function Layout({ children }) {
   return (
-    <div className=" w-10/12 mx-auto flex gap-6 pt-4">
-      <SideBar />
+    <div>
+      <Navbar />
+      <div className=" w-10/12 mx-auto flex gap-6 pt-4  justify-center">
+        <SideBar />
 
-      <div className="w-[70%] flex flex-col rounded-lg gap-4">
-        <Topbar />
-        <div>{children}</div>
+        <div className="w-[70%] flex flex-col rounded-lg gap-4">
+          <Topbar />
+          <div>{children}</div>
+        </div>
       </div>
     </div>
   );
@@ -34,4 +37,8 @@ export function Topbar() {
       </div>
     </div>
   );
+}
+
+export function Navbar() {
+  return <div className="h-20 bg-[#FFFFFF] w-full mb-2"></div>;
 }

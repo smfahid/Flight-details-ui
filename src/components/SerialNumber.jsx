@@ -2,7 +2,7 @@ import React from "react";
 
 function SerialNumber() {
   return (
-    <div className="bg-[#1882FF] rounded-full w-[30px] h-[30px] text-white justify-center items-center text-center font-semibold">
+    <div className="bg-[#1882FF] rounded-full w-[24px] h-[24px] text-white flex justify-center items-center  font-semibold text-xs">
       1
     </div>
   );
